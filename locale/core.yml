@@ -1,0 +1,556 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: "Είστε προγραμματιστής; Συμβουλευθείτε την <a>τεκμητρίωση</a> για να φτιάξετε τις δικές σας επεκτάσεις."
+      install_text: "Μπορείτε ακόμα να αναζητήσετε επεκτάσεις στην <a> επίσημη κοινότητα Flarum </a> και να τις εγκαταστήσετε χειροκίνητα χρησιμοποιώντας το Composer."
+      temporary_text: ""
+      title: Προσθήκη επεκτάσεων
+
+    # These translations are used in the Appearance page.
+    appearance:
+      colored_header_label: "Κεφαλίδα με χρώμα"
+      colors_heading: Χρώματολόγιο
+      colors_text: "Επιλέξτε δύο χρώματα γα να χρωματίσετε το forum σας. Το πρώτο χρώμα θα χρησιμοποιηθεί για την ανάδειξη των επιλεγμένων στοιχείων. Το δεύτερο χρώμα θα χρησιμοποιηθεί για το χρωματισμό του φόντου των στοιχείων."
+      custom_header_heading: "Προσαρμοσμένη κεφαλίδα"
+      custom_header_text: "Προσθέστε τον δικό σας HTML κώδικα. Ο κωδικά σας θα εμφανιστεί πριν την κεφαλίδα του Flarum."
+      custom_styles_heading: Προσαρμοσμένη εμφάνιση
+      custom_styles_text: Διαμορφώστε την εμφάνιση του forum σας τον δικό σας κώδικα LESS/CSS συμπληρωματικά με τον κώδικα του Flarum.
+      dark_mode_label: Σκούρο θέμα
+      edit_css_button: Προσαρμογή CSS εμφάνισης
+      edit_header_button: Προσαρμογή HTML κεφαλίδας
+      enter_hex_message: Εισάγετε ένα κωδικό χρώματος σε δεκαεξαδική μορφή.
+      favicon_heading: Εικόνα συντόμευσης (Favicon)
+      favicon_text: Ανεβάστε μια εικόνα για να χρησιμοποιηθεί ως συντόμευση για το forum σας.
+      logo_heading: Λογότυπο
+      logo_text: Ανεβάστε μία εικόνα για να αντικαταστήσετε τον τίτλο του forum σας.
+      submit_button: => core.ref.okay
+
+    # These translations are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: Προεπιλεγμένη γλώσσα
+      forum_description_heading: Περιγραφή
+      forum_description_text: 
+      Δημοσιεύστε μια περίληψη που περιγράφει την κοινότητά σας. Η περιγραφή θα εμφανιστεί στην ετικέτα Meta και θα εμφανιστεί στο αποτέλεσμα της μηχανής αναζήτησης.      
+      forum_title_heading: Τίτλος
+      home_page_heading: Αρχική σελίδα
+      home_page_text: "Επιλέξτε τη σελίδα που θα βλέπουν οι χρήστες όταν επισκέπτονται το φόρουμ σας για πρώτη φορά. Αν εισάγετε μια προσαρμοσμένη τιμή, χρησιμοποιήστε τη σχετική διαδρομή στη ρίζα του φόρουμ."
+      saved_message: Οι αλλαγές σας αποθηκεύτηκαν.
+      show_language_selector_label: Προβολή επιλογέα γλώσσας
+      submit_button: => core.ref.okay
+      welcome_banner_heading: Κεφαλίδα καλωσορίσματος
+      welcome_banner_text: "Προσαρμόστε το κείμενο που εμφανίζεται στην κεφαλίδα της λίστας συζητήσεων. Σας επιτρέπει να υποδεχτείτε τους επισκέπτες στο forum σας."
+
+    # These translations are used in the Dashboard page.
+    dashboard:
+      beta_warning_text: "Ce <strong>logiciel en bêta</strong> est disponible pour que vous nous aidiez à le tester et à l’améliorer. Il ne devrait pas être utilisé dans un environnement de production."
+      contributing_text: "Vous souhaitez contribuer et corriger des bogues ? Consultez <a>la documentation de contribution</a> (en anglais)."
+      extension_text: "Vous souhaitez développer des extensions ? Consultez <a>la documentation sur les extensions</a> (en anglais)."
+      features_text: "Vous souhaitez soumettre une idée ou une fonctionnalité ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Features »</a> (en anglais)."
+      support_text: "Vous souhaitez signaler un bogue ? Publiez une nouvelle discussion sur notre forum en utilisant <a>l’étiquette « Support »</a> (en anglais)."
+      troubleshooting_text: "Vous avez des difficultés ? Consultez <a>la documentation de dépannage</a> (en anglais)."
+      version_text: "Merci d’essayer Flarum ! Vous utilisez la version {version}."
+      welcome_text: "Bienvenue sur la bêta de Flarum !"
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "Personnalisez l’apparence de votre forum en ajoutant votre propre code LESS/CSS qui sera appliqué en priorité par rapport <a>aux styles par défaut</a> de Flarum."
+      submit_button: => core.ref.okay
+      title: Modifier le CSS personnalisé
+
+    # These translations are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: Couleur
+      delete_button: Supprimer le groupe
+      delete_confirmation: "Êtes-vous sûr de vouloir supprimer ce groupe ? Les membres du groupe ne seront pas supprimés."
+      icon_label: Icône
+      icon_text: "Saisissez le nom d’une des icônes de <a>Font Awesome</a> <em>sans</em> le préfixe <code>fa-</code>."
+      name_label: Nom
+      plural_placeholder: Pluriel (tel que « modérateurs »)
+      singular_placeholder: Singulier (tel que « modérateur »)
+      submit_button: => core.ref.okay
+      title: Créer le groupe
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "Ajoutez du code HTML à afficher en haut de page, au-dessus de l’en-tête de Flarum."
+      submit_button: => core.ref.save_changes
+      title: "Modifier l’en-tête personnalisé"
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: Compte SMTP
+      addresses_heading: Adresses
+      driver_label: Driver
+      encryption_label: Chiffrement
+      from_label: Expéditeur
+      heading: => core.ref.email
+      host_label: Hôte
+      password_label: => core.ref.password
+      port_label: Port
+      server_heading: Serveur SMTP
+      submit_button: => core.ref.okay
+      text: Configurez les paramètres et les adresses SMTP que votre forum utilisera pour envoyer les courriels.
+      username_label: => core.ref.username
+
+    # These translations are used in the Extensions page.
+    extensions:
+      add_button: Ajouter une extension
+      settings_button: => core.ref.settings
+      uninstall_button: Désinstaller
+
+    # These translations are used in the session dropdown menu.
+    header:
+      log_out_button: => core.ref.log_out
+
+    # These translations are used in the modal dialog displayed when loading extensions.
+    loading:
+      title: Veuillez patienter…
+
+    # These translations are used in the navigation bar.
+    nav:
+      appearance_button: Apparence
+      appearance_text: "Personnalisez les couleurs, les logos et d’autres aspects de votre forum."
+      basics_button: Essentiel
+      basics_text: "Configurez le titre, la langue et d’autres paramètres essentiels de votre forum."
+      dashboard_button: Tableau de bord
+      dashboard_text: Tout votre forum d’un simple coup d’œil.
+      email_button: => core.ref.email
+      email_text: Configurez les paramètres relatifs aux courriels de votre forum.
+      extensions_button: Extensions
+      extensions_text: Ajoutez des fonctionnalités supplémentaires à votre forum pour le personnaliser selon vos préférences.
+      permissions_button: Permissions
+      permissions_text: Configurez les actions autorisées.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_renaming_label: Renommer ses discussions
+      allow_post_editing_label: Modifier ses messages
+      create_heading: Création
+      delete_discussions_forever_label: Supprimer définitivement les discussions
+      delete_discussions_label: Supprimer les discussions
+      delete_posts_forever_label: Supprimer définitivement les messages
+      edit_and_delete_posts_label: Modifier et supprimer les messages
+      global_heading: Général
+      moderate_heading: Modération
+      new_group_button: Nouveau groupe
+      participate_heading: Participation
+      read_heading: Consultation
+      rename_discussions_label: Renommer les discussions
+      reply_to_discussions_label: Répondre aux discussions
+      sign_up_label: S’inscrire
+      start_discussions_label: Démarrer des discussions
+      view_discussions_label: Voir les discussions
+      view_post_ips_label: Voir les adresses IP du message
+      view_user_list_label: Voir la liste des utilisateurs
+
+    # These translations are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: Indéfiniment
+      allow_some_minutes_button: "Pendant {count} minute|Pendant {count} minutes"
+      allow_ten_minutes_button: Pendant 10 minutes
+      allow_until_reply_button: Jusqu’à la prochaine réponse
+      everyone_button: Tout le monde
+      members_button: => core.group.members
+      signup_closed_button: Refuser
+      signup_open_button: Autoriser
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.okay
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: Supprimer
+      upload_button: Sélectionner une image…
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Change Email modal dialog.
+    change_email:
+      confirmation_message: => core.ref.confirmation_email_sent
+      confirm_password_placeholder: => core.ref.confirm_password
+      dismiss_button: => core.ref.okay
+      incorrect_password_message: Le mot de passe que vous avez spécifié est incorrect.
+      submit_button: => core.ref.okay
+      title: => core.ref.change_email
+
+    # These translations are used in the Change Password modal dialog.
+    change_password:
+      send_button: Αποστολή
+      text: "Για να ανακτήσετε τον κωδικό πρόσβασής σας κάντε κλικ στο παρακάτω κουμπί και στη συνέχεια ελέγξτε το ηλεκτρονικό σας ταχυδρομείο. Εάν δεν λάβετε κάποιο μήνυμα στα επόμενα λεπτά παρακαλούμε να ελέγξετε και στο φάκελο ανεπιθύμητης αλληλογραφίας."
+      title: => core.ref.change_password
+
+    # These translations are used by the composer controls.
+    composer:
+      close_tooltip: Κλείσιμο
+      exit_full_screen_tooltip: Έξοδος από τη λειτουργία πλήρους οθόνης
+      full_screen_tooltip: Είσοδος σε λειτουργία πλήρους οθόνης
+      minimize_tooltip: Σμίκρυνση
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: Πληκτρολογήστε το σχόλιό σας
+      discard_confirmation: "Δεν έχετε δημοσιεύσει ακόμα το θέμα συζήτησης. Είστε σίγουροι ότι θέλετε να εγκαταλείψετε;"
+      submit_button: Δημοσίευση συζήτησης
+      title: => core.ref.start_a_discussion
+      title_placeholder: Τίτλος συζήτησης
+
+    # These translations are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "Δεν έχετε αποθηκεύσει τις αλλαγές σας. Είστε σίγουροι ότι θέλετε να εγκαταλείψετε;"
+      post_link: "Μήνυμα #{number} στη συζήτηση με θέμα {discussion}"
+      submit_button: => core.ref.okay
+
+    # These translations are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "Δεν έχετε δημοσιεύσει ακόμα το σχόλιό σας. Είστε σίγουροι ότι θέλετε να εγκαταλείψετε;"
+      posted_message: Το σχόλιό σας δημοσιεύθηκε.
+      submit_button: Δημοσίευση
+      view_button: Επισκόπηση
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: Δεν μπορείτε να σχολιάσετε
+      cannot_reply_text: Δεν μπορείτε να συμμετέχετε σε αυτή τη συζήτηση.
+      delete_button: => core.ref.delete
+      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη συζήτηση;"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: Συνδεθείτε για να σχολιάσετε
+      rename_button: => core.ref.rename
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These translations are used in the discussion list.
+    discussion_list:
+      empty_text: Δεν υπάρχει διαθέσιμη συζήτηση εδώ.
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: Επισήμανση ως αναγνωσμένο
+      replied_text: "Ο/Η {username} συμμετείχε σε αυτή τη συζήτηση πριν από {ago}"
+      started_text: ")/Η {username} δημοσίευσε αυτή τη συζήτηση πριν από {ago}"
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: Ενεργοποίηση χρήστη
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: Ομάδες
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: Ορίστε έναν νέο κωδικό πρόσβασης
+      submit_button: => core.ref.okay
+      title: Επεξεργασία χρήστη
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+
+    # These translations are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: "Σας στείλαμε ένα e-mail με ένα σύνδεσμο ώστε να μπορέσετε να ανακτήσετε τον κωδικό σας. Εάν δεν το λάβετε στα επόμενα λεπτά παρακαλούμε να ελέγξετε και στο φάκελο ανεπιθύμητης αλληλογραφίας."
+      not_found_message: Δεν υπάρχουν εγγεγραμμένοι χρήστες με αυτή τη διεύθυνση ηλεκτρονικού ταχυδρομείου.
+      submit_button: Ανάκτηση κωδικού πρόσβασης
+      text: Εισαγάγετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας ώστε να σας στείλουμε έναν σύνδεσμο που θα σας επιτρέψει να ανακτήσετε τον κωδικό πρόσβασής σας.
+      title: Ανάκτηση κωδικού πρόσβασης
+
+    # These translations are used in the header and session dropdown menu.
+    header:
+      admin_button: Διαχείριση
+      back_to_index_tooltip: Επιστροφή στον κατάλογο των συζητήσεων
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: Προφίλ
+      search_placeholder: Αναζήτηση
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: Δεν είναι δυνατόν να ξεκινήσετε μια καινούργια συζήτηση.      
+      mark_all_as_read_confirmation: "Είστε βέβαιοι ότι θέλετε να επισημάνετε όλες τις ειδοποιήσεις ως αναγνωσμένες;"
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: Ανανέωση περιεχομένου
+      start_discussion_button: => core.ref.start_a_discussion
+
+    # These translations are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: Δραστηριότητα
+      newest_button: Πρόσφατα πρώτα
+      oldest_button: Παλαιότερα πρώτα
+      relevance_button: Σχετικότερα
+      top_button: Δημοφιλέστερα
+
+    # These translations are used in the Log In modal dialog.
+    log_in:
+      forgot_password_link: "Ξεχάσατε τον κωδικό σας?"
+      invalid_login_message: Τα στοιχεία σας είναι λανθασμένα.
+      password_placeholder: => core.ref.password
+      remember_me_label: Να με θυμάσαι
+      sign_up_text: "Pas encore inscrit ? <a>Inscription</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: Όνομα χρήστη ή e-mail
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "O/H {username} άλλαξε τον τίτλο της συζήτησής σας"
+      empty_text: Καμία ειδοποίηση
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These translations are used by tooltips displayed for individual posts.
+    post:
+      edited_text: Τροποποίηση
+      edited_tooltip: "Ο/Η {username} τροποποίησε αυτό το μήνυμα {ago} νωρίτερα"
+      number_tooltip: "Μήνυμα #{number}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These translations are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: Αυτή τη στιγμή
+      original_post_link: Αρχικό μήνυμα
+      unread_text: "{count} μη αναγνωσμένα"
+      viewing_text: "{index} από {count} μήνυμα|{index} από {count} μηνύματα"
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_old_tooltip: "Ο προηγούμενος τίτλος ήταν: « {old} »"
+      discussion_renamed_text: "Ο/Η {username} άλλαξε τον τίτλο σε {new}."
+      load_more_button: => core.ref.load_more
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} αργότερα"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      title: Μετονομασία συζήτησης
+      submit_button: => core.ref.rename
+
+    # These translations are used by the search results dropdown list.
+    search:
+      all_discussions_button: "Αποτελέσματα αναζήτησης σε όλες τις συζητήσεις για τον όρο: «{query}» "
+      discussions_heading: => core.ref.discussions
+      users_heading: Χρήστες
+
+    # These translations are used in the Settings page.
+    settings:
+      account_heading: Ρυθμίσεις λογαριασμού
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: E-mail
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: Κάποιος μετονόμασε μια συζήτηση που άρχισα
+      privacy_disclose_online_label: Επιτρέψτε στους άλλους να δουν ότι είμαι συνδεδεμένος
+      privacy_heading: Απόρρητο
+      title: => core.ref.settings
+
+    # These translations are used in the Sign Up modal dialog.
+    sign_up:
+      email_placeholder: => core.ref.email
+      dismiss_button: => core.ref.okay
+      log_in_text: "Είστε ήδη εγεγραμμένος? <a>Σύνδεση</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: => core.ref.username
+      welcome_text: "Καλώς ήλθες {username} !"
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: Διαγραφή
+      avatar_upload_button: Εισαγωγή
+      avatar_upload_tooltip: Ανεβάστε μια εικόνα για το προφίλ σας
+      bio_placeholder: Πείτε μας δύο λόγια για εσάς
+      discussions_link: => core.ref.discussions
+      in_discussion_text: "Στη συζήτηση {discussion}"
+      joined_date_text: "Μέλος εδώ και {ago}"
+      online_text: Συνδεδεμένος
+      posts_load_more_button: => core.ref.load_more
+      posts_link: Μηνύματα
+      settings_link: => core.ref.settings
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      button: Επιλογές
+      delete_button: => core.ref.delete
+      delete_confirmation: "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον χρήστη; Όλα τα μηνύματά του θα διαγραφούν επίσης."
+      edit_button: => core.ref.edit
+
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    	user_email_confirmation: Επιβεβαίωση ηλεκτρονικής διεύθυνσης νέου χρήστη
+      	alert_message: => core.ref.confirmation_email_sent
+      	resend_button: Αποστολή του e-mail επιβεβαίωσης
+      	sent_message: Αποστολή
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: Κρυφό
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[διαγράφεται]"
+
+    # These translations are displayed as error messages.
+    error:
+      generic_message: "Παρουσιάστηκε κάποιο σφάλμα. Ανανεώστε τη σελίδα και δοκιμάστε ξανά."
+      not_found_message: Αυτό που ζητήσατε δεν βρέθηκε.
+      permission_denied_message: Δεν διαθέτετε τα απαιτούμενα δικαιώματα για να προχωρήσετε σε αυτήν την ενέργεια.
+      rate_limit_exceeded_message: Περιμένετε να περάσει λίγος χρόνος και προσπαθήστε ξανά.
+
+    # These translations are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+
+    # These translations are used to punctuate a series of items.
+    series:
+      glue_text: ", "
+      three_text: "{first}, {second} και {third}"
+      two_text: "{first} και {second}"
+
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: Για να δείτε αυτόν τον ιστότοπο απαιτείται να είναι επιτρέπεται η χρήση Java Script από το πρόγραμμα περιήγησης που χρησιμοποιείτε.
+      load_error_message: Παρουσιάστηκε κάποιο σφάλμα κατά την προσπάθεια φόρτωσης της πλήρους έκδοσης αυτού του ιστότοπου.
+      loading_text: Παρακαλώ περιμένετε…
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: Προηγούμενη σελίδα
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset:
+      confirm_password_label: => core.ref.confirm_password
+      password_label: => core.ref.password
+      submit_button: Επαναφορά κωδικού
+      title: Επαναφορά του κωδικού πρόσβασης
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "Le nom d’utilisateur ne doit contenir que des lettres, des chiffres et des tirets."
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      subject: Ενεργοποίηση λογαριασμού
+      body: |
+        Αγαπητή/έ {username} !
+
+        Για να ολοκληρωθεί η εγγραφή σας στο forum {forum} χρειάζεται να μας επιβεβαιώσετε ότι αυτό το e-mail σας ανήκει.
+        
+        Εάν δεν ξεκινήσατε εσείς αυτή τη διαδικασία, δεν αναγνωρίζετε αυτό το e-mail ή δεν επιθυμείτε να εγγραφείτε στο forum {forum} παρακαλούμε αγνοήστε αυτή την ειδοποίηση.
+        Διαφορετικά ακολουθήστε τον παρακάτω σύνδεσμο για να ενεργοποιηθεί η εγγραφή σας:
+        {url}
+
+        Si vous n’êtes pas à l’origine de cette action, veuillez ignorer ce courriel.
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      subject: Αλλαγή διεύθυνσης ηλεκτρονικού ταχυδρομείου
+      body: |
+        Αγαπητή/έ {username} !
+
+        Ζητήσατε να αλλάξετε την διεύθυνση του ηλεκτρονικού ταχυδρομείου που συνδέεται με το λογαριασμό σας στο forum {forum}.
+        
+       	Εάν αυτό το e-mail δεν ανήκει σε εσάς ή δεν ζητήσατε εσείς την αλλαγή αυτή παρακαλούμε αγνοήστε αυτή την ειδοποίηση.
+
+        Διαφορετικά ακολουθήστε τον παρακάτω σύνδεσμο για να ολοκληρώσετε την αλλαγή της ηλεκτρονικής σας διεύθυνσης:
+        {url}
+
+       
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: Επαναφορά κωδικού πρόσβασης
+      body: |
+        Αγαπητή/έ {username}!
+
+        Ζητήστε να επαναφέρετε τον κωδικό πρόσβασης για το λογαριασμό σας στο forum {forum}.
+        
+        Εάν δεν είστε εσείς που ζητήσατε να προχωρήσουμε σε αυτήν την ενέργεια παρακαλούμε αγνοήστε αυτή την ειδοποίηση.
+        
+      	Διαφορετικά ακολουθήστε τον παρακάτω σύνδεσμο για να ολοκληρώσετε την επαναφορά του κωδικού σας:
+      	{url}
+
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: Όλες οι συζητήσεις
+    change_email: Επεξεργασία e-mail
+    change_password: Αλλαγή κωδικού πρόσβασης
+    confirm_password: Επιβεβαίωση κωδικού πρόσβασης
+    confirmation_email_sent: "Σας στείλαμε ένα e-mail επιβεβαίωσης στη διεύθυνση {email}. Εάν δεν το λάβετε στα επόμενα λεπτά παρακαλούμε να ελέγξετε και στο φάκελο ανεπιθύμητης αλληλογραφίας."
+    delete: Διαγραφή
+    delete_forever: Μόνιμη διαγραφή
+    discussions: Συζητήσεις
+    edit: Επεξεργασία
+    email: E-mail
+    load_more: Περισσότερα
+    log_in: Σύνδεση
+    log_out: Αποσύνδεση
+    mark_all_as_read: Επισήμανση όλων σε αναγνωσμένα
+    next_page: Επόμενη σελίδα
+    notifications: Ειδοποιήσεις
+    okay: Επιβεβαίωση                               # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
+    password: Κωδικός πρόσβασης
+    rename: Μετονομασία
+    reply: Απάντηση                              # Referenced by flarum-mentions.yml
+    restore: Επαναφορά
+    settings: Ρυθμίσεις
+    sign_up: Εγγραφή
+    start_a_discussion: Νέα συζήτηση
+    some_others: "{count} ακόμα|{count} ακόμα"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: Όνομα χρήστη
+    write_a_reply: Πείτε τη γνώμη σας…
+    you: Εσείς                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
+
+  # Translations in this namespace are used to translate default group names.
+  	group: Όμάδα
+    admin: Διαχειριστής
+    admins: Διαχειριστές
+    guest: Επισκέπτης
+    guests: Επισκέπτες
+    member: Mέλος
+    members: Μέλη
+    mod: Συντονιστής
+    mods: Συντονιστές
