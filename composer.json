@@ -1,0 +1,41 @@
+{
+    "name": "incompatiblespace/flarum-ext-greek",
+    "description": "Greek language pack to localize the Flarum forum software",
+    "type": "flarum-extension",
+    "keywords": ["extension", "flarum", "greek", "locale", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kiriakos Giannatos",
+            "email": "kiriakos.giannatos@protonmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/incompatiblespace/flarum-ext-greek/issues",
+        "source": "https://github.com/incompatiblespace/flarum-ext-greek"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Greek",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "el",
+            "title": "Greek"
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    }
+}
