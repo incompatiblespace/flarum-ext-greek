@@ -277,7 +277,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Σίγουρα θέλετε να χαρακτηρίσετε όες τις συζητήσεις ως διαβασμένες?"
+      mark_all_as_read_confirmation: "Σίγουρα θέλετε να χαρακτηρίσετε όλες τις συζητήσεις ως διαβασμένες?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: Ανανέωση
       start_discussion_button: => core.ref.start_a_discussion
@@ -335,7 +335,7 @@ core:
       discussion_renamed_text: "Ο/Η {username} άλλαξε τον τίτλο σε {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} αργότερα"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
@@ -379,7 +379,7 @@ core:
       avatar_upload_tooltip: "Μεταφόρτωση avatar"
       discussions_link: => core.ref.discussions
       in_discussion_text: "Στη συζήτηση {discussion}"
-      joined_date_text: "Joined {ago}"
+      joined_date_text: "Συμμετέχει {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
       posts_link: "Άρθρα"
