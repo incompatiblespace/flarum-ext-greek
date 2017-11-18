@@ -15,7 +15,9 @@
         "source": "https://github.com/incompatiblespace/flarum-ext-greek"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.7"
+        "flarum/core": "^0.1.0-beta.7",
+        "minimum-stability": "dev",
+        "prefer-stable" : true,   
     },
     "extra": {
         "branch-alias": {
@@ -36,10 +38,6 @@
         },
         "flagrow": {
             "discuss": ""
-        },
-        "require":{
-            "minimum-stability": "dev",
-            "prefer-stable" : true,   
-        }   
+        }  
     }
 }
