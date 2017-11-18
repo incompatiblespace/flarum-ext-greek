@@ -5,33 +5,35 @@ core:
   ##
 
   # Translations in this namespace are used by the admin interface.
+  
   admin:
 
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
+ # These translations are used in the placeholder Add Extension modal dialog.
+    
+  add_extension:
       developer_text: "Είστε προγραμματιστής; Συμβουλευθείτε την <a>τεκμητρίωση</a> για να φτιάξετε τις δικές σας επεκτάσεις."
       install_text: "Μπορείτε ακόμα να αναζητήσετε επεκτάσεις στην <a> επίσημη κοινότητα Flarum </a> και να τις εγκαταστήσετε χειροκίνητα χρησιμοποιώντας το Composer."
-      temporary_text: ""
-      title: Προσθήκη επεκτάσεων
+      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      title: "Προσθήκη επεκτάσεων"
 
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: "Κεφαλίδα με χρώμα"
-      colors_heading: Χρώματολόγιο
+      colors_heading: "Χρωματολόγιο"
       colors_text: "Επιλέξτε δύο χρώματα γα να χρωματίσετε το forum σας. Το πρώτο χρώμα θα χρησιμοποιηθεί για την ανάδειξη των επιλεγμένων στοιχείων. Το δεύτερο χρώμα θα χρησιμοποιηθεί για το χρωματισμό του φόντου των στοιχείων."
       custom_header_heading: "Προσαρμοσμένη κεφαλίδα"
       custom_header_text: "Προσθέστε τον δικό σας HTML κώδικα. Ο κωδικά σας θα εμφανιστεί πριν την κεφαλίδα του Flarum."
-      custom_styles_heading: Προσαρμοσμένη εμφάνιση
-      custom_styles_text: Διαμορφώστε την εμφάνιση του forum σας τον δικό σας κώδικα LESS/CSS συμπληρωματικά με τον κώδικα του Flarum.
-      dark_mode_label: Σκούρο θέμα
-      edit_css_button: Προσαρμογή CSS εμφάνισης
-      edit_header_button: Προσαρμογή HTML κεφαλίδας
-      enter_hex_message: Εισάγετε ένα κωδικό χρώματος σε δεκαεξαδική μορφή.
-      favicon_heading: Εικόνα συντόμευσης (Favicon)
-      favicon_text: Ανεβάστε μια εικόνα για να χρησιμοποιηθεί ως συντόμευση για το forum σας.
-      logo_heading: Λογότυπο
-      logo_text: Ανεβάστε μία εικόνα για να αντικαταστήσετε τον τίτλο του forum σας.
-      submit_button: => core.ref.okay
+      custom_styles_heading: "Προσαρμοσμένη εμφάνιση"
+      custom_styles_text: "Διαμορφώστε την εμφάνιση του forum σας τον δικό σας κώδικα LESS/CSS συμπληρωματικά με τον κώδικα του Flarum."
+      dark_mode_label: "Σκούρο θέμα"
+      edit_css_button: "Προσαρμογή CSS εμφάνισης"
+      edit_header_button: "Προσαρμογή HTML κεφαλίδας"
+      enter_hex_message: "Εισάγετε ένα κωδικό χρώματος σε δεκαεξαδική μορφή."
+      favicon_heading: "Εικόνα συντόμευσης (Favicon)"
+      favicon_text: "Ανεβάστε μια εικόνα για να χρησιμοποιηθεί ως συντόμευση για το forum σας."
+      logo_heading: "Λογότυπο"
+      logo_text: "Ανεβάστε μία εικόνα για να αντικαταστήσετε τον τίτλο του forum σας."
+      submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
@@ -527,10 +529,10 @@ core:
     mark_all_as_read: Επισήμανση όλων σε αναγνωσμένα
     next_page: Επόμενη σελίδα
     notifications: Ειδοποιήσεις
-    okay: Επιβεβαίωση                               # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
+    okay: Επιβεβαίωση                           # Referenced by flarum-flags.yml, flarum-suspend.yml, flarum-tags.yml
     password: Κωδικός πρόσβασης
     rename: Μετονομασία
-    reply: Απάντηση                              # Referenced by flarum-mentions.yml
+    reply: Απάντηση                             # Referenced by flarum-mentions.yml
     restore: Επαναφορά
     settings: Ρυθμίσεις
     sign_up: Εγγραφή
@@ -538,7 +540,7 @@ core:
     some_others: "{count} ακόμα|{count} ακόμα"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     username: Όνομα χρήστη
     write_a_reply: Πείτε τη γνώμη σας…
-    you: Εσείς                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Εσείς                                  # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
