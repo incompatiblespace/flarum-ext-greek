@@ -12,7 +12,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "English",
+            "title": "Greek",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#FFF",
