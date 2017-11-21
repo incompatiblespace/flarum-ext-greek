@@ -13,82 +13,82 @@ flarum-tags:
 
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Couleur
-      delete_tag_button: Supprimer l’étiquette
-      delete_tag_confirmation: "Êtes-vous sûr de vouloir supprimer cette étiquette ? Les discussions publiées sous cette étiquette ne seront pas supprimées."
-      description_label: Description
-      hide_label: Masquer de la liste de discussions
+      color_label: Χρώμα
+      delete_tag_button: Διαγραφή ετικέτας
+      delete_tag_confirmation: "Σίγουρα θέλετε να διαγράψετε αυτή την ετικέτα? Οι συζητήσεις με αυτή την ετικέτα ΔΕΝ θα διαγραφούν."
+      description_label: Περιγραφή
+      hide_label: Απόκρυψη από όλες τις συζητήσεις
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: Identifiant
-      submit_button: => core.ref.okay
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Gérez la liste des étiquettes disponibles pour organiser les discussions.
+      tags_text: Διαχείριση καταλόγου ετικετών για την καλύτερη οργάνωση των συζητήσεων.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Autoriser la modification des étiquettes
-      restrict_by_tag_heading: Restreindre par étiquette
-      tag_discussions_label: Ajouter des étiquettes aux discussions
+      allow_edit_tags_label: Να επιτρέπεται η επεξεργασία των ετικέτων
+      restrict_by_tag_heading: Περιορισμός ανά ετικέτα
+      tag_discussions_label: Συζητήσεις ετικέτας
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " à "
-      required_primary_heading: Limite du nombre d’étiquettes primaires
-      required_primary_text: Saisissez le nombre minimal et maximal d’étiquettes primaires qui peuvent être ajoutées à une discussion.
-      required_secondary_heading: Limite du nombre d’étiquettes secondaires
-      required_secondary_text: Saisissez le nombre minimal et maximal d’étiquettes secondaires qui peuvent être ajoutées à une discussion.
-      title: Paramètres des étiquettes
+      range_separator_text: " έως "
+      required_primary_heading: Απαιτούμενος αριθμός κυρίων ετικετών
+      required_primary_text: Συμπληρώστε το μικρότερο και το μεγαλύτερο αριθμό κυρίων ετικετών που μπορούν να τοποθετηθούν σε μια συζήτηση.
+      required_secondary_heading: Απαιτούμενος αριθμός βοηθητικών ετικετών
+      required_secondary_text: Συμπληρώστε το μικρότερο και το μεγαλύτερο αριθμό βοηθητικών ετικετών που μπορούν να τοποθετηθούν σε μια συζήτηση.
+      title: Ρυθμίσεις ετικετών
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Les étiquettes permettent de catégoriser les discussions. Les étiquettes primaires sont similaires aux traditionnelles catégories, elles peuvent être disposées en une hiérarchie à deux niveaux. Les étiquettes secondaires ne sont ni hierarchisées, ni ordonnées, mais peuvent êtres utilisées comme des catégories mineures."
+      about_tags_text: "Οι ετικέτες χρησιμοποιούντα για την κατηγοριοποίηση των συζητήσεων. Οι κύριες ετικέτες μπορούν να ταξινομηθούν ιεραρχικά σε βάθος δύο επιπέδων. Οι βοηθητικές ετικέτες δεν ιεραρχούνται ούτε αλλάζουν σειρά και χρησιμεύουν για την μικρο-κατηγοριοποίηση των συζητήσεων"
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Étiquettes primaires
-      secondary_heading: Étiquettes secondaires
-      settings_button: Paramètres
+      primary_heading: Κύριες ετικέτες
+      secondary_heading: Βοηθητικές ετικέτες
+      settings_button: Ρυθμίσεις
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Sélectionnez une étiquette primaire|Sélectionnez {count} étiquettes primaires"
-      choose_secondary_placeholder: "Sélectionnez une étiquette secondaire|Sélectionnez {count} étiquettes secondaires"
-      edit_title: "Modifiez les étiquettes de {title}"
+      choose_primary_placeholder: "Επιλέξτε μια κύρια ετικέτα|Επιλέξτε {count} κύριες ετικέτες"
+      choose_secondary_placeholder: "Επιλέξτε 1 ετικέτα ακόμα|Επιλέξτε {count} ετικέτες ακόμα"
+      edit_title: "Επεξεργασία ετικετών για {title}"
       submit_button: => core.ref.okay
-      title: Sélectionnez les étiquettes de votre discussion
+      title: Επιλέξτε ετικέτες για τη συζήτησή σας
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Sélectionnez des étiquettes
+      choose_tags_link: Επιλογή ετικετών
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Επεξεργασία
+      edit_tags_button: Επεξεργασία ετικετών
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: Περισσότερα…
+      more_link: Περισσότερα...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Χωρίς ετικέτα
+      untagged_link: Χωρίς ετικέτες
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} a ajouté {tagsAdded}."
-      added_and_removed_tags_text: "{username} a ajouté {tagsAdded} et a supprimé {tagsRemoved}."
-      removed_tags_text: "{username} a supprimé {tagsRemoved}."
-      tags_text: "l’étiquette {tags}|les étiquettes {tags}"
+      added_tags_text: "Ο/Η {username} προσέθεσε τις ετικέτες {tagsAdded}."
+      added_and_removed_tags_text: "Ο/Η {username} προσέθεσε τις ετικέτες {tagsAdded} και διέγραψε τις ετικέτες {tagsRemoved}."
+      removed_tags_text: "Ο/Η {username} διέγραψε τις ετικέτες {tagsRemoved}."
+      tags_text: "{tags} ετικέτα|{tags} ετικέτες"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: "Διαγραφή"
+    deleted_tag_text: Διαγράφτηκε
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: "Δημιουργία ετικέτας"
-    name: "Όνομα"
-    tags: "Ετικέτες"
+    create_tag: Νέα ετικέτα
+    name: Όνομα
+    tags: Ετικέτες
